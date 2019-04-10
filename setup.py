@@ -12,5 +12,10 @@ setup(
     license='MIT',
     author_email='jeff@clearvoice.com',
     description='Multi Member GZip Support for Python 3',
-    packages=['multigzip']
+    packages=['multigzip'],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+    ],
 )
