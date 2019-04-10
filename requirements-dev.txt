@@ -1,0 +1,6 @@
+-e .
+
+pytest
+coverage
+flake8
+tox
