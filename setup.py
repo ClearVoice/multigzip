@@ -2,6 +2,9 @@ from setuptools import setup
 
 from multigzip import __version__
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name='multigzip',
     version=__version__,
@@ -12,6 +15,8 @@ setup(
     license='MIT',
     author_email='jeff@clearvoice.com',
     description='Multi Member GZip Support for Python 3',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     packages=['multigzip'],
     classifiers=[
         "Programming Language :: Python :: 3",
