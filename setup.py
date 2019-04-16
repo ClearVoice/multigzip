@@ -10,7 +10,7 @@ setup(
     version=__version__,
     provides=['multigzip'],
     author='Jeff Nappi',
-    url='https://github.com/jeffnappi/multigzip',
+    url='https://github.com/ClearVoice/multigzip',
     setup_requires='setuptools',
     license='MIT',
     author_email='jeff@clearvoice.com',
